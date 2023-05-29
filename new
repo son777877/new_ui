@@ -151,7 +151,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
         Glow = Color3.fromRGB(79, 195, 247),
-        Logo = "rbxassetid://7409401226"
+        Logo = ""
     }
 
     table.insert(CFAHub, title)
@@ -334,7 +334,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         YesIcon.BackgroundTransparency = 1.000
         YesIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
         YesIcon.Size = UDim2.new(0, 20, 0, 20)
-        YesIcon.Image = "rbxassetid://7072706620"
+        YesIcon.Image = ""
         
         Animate:CreateGradient(YesButton)
         
@@ -363,7 +363,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         NoIcon.BackgroundTransparency = 1.000
         NoIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
         NoIcon.Size = UDim2.new(0, 20, 0, 20)
-        NoIcon.Image = "rbxassetid://7072725342"
+        NoIcon.Image = ""
         
         BarFrame.Name = "BarFrame"
         BarFrame.Parent = Template
@@ -977,7 +977,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 IconEnable.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 IconEnable.Size = UDim2.new(0, 23, 0, 23)
                 IconEnable.ZIndex = 2
-                IconEnable.Image = "rbxassetid://3926309567"
+                IconEnable.Image = ""
                 IconEnable.ImageTransparency = 1
                 IconEnable.ImageColor3 = themes.TextColor
                 Objects[IconEnable] = "TextColor"
@@ -992,7 +992,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 IconDisable.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 IconDisable.Size = UDim2.new(0, 23, 0, 23)
                 IconDisable.ZIndex = 2
-                IconDisable.Image = "rbxassetid://3926309567"
+                IconDisable.Image = ""
                 IconDisable.ImageColor3 = themes.TextColor
                 Objects[IconDisable] = "TextColor"
                 IconDisable.ImageRectOffset = Vector2.new(628, 420)
@@ -1113,7 +1113,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 ArrowIcon.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 ArrowIcon.Size = UDim2.new(0, 23, 0, 23)
                 ArrowIcon.ZIndex = 2
-                ArrowIcon.Image = "rbxassetid://7072706663"
+                ArrowIcon.Image = ""
                 ArrowIcon.ImageColor3 = themes.TextColor
                 Objects[ArrowIcon] = "TextColor"
                 
@@ -1444,7 +1444,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 SliderIcon.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 SliderIcon.Size = UDim2.new(0, 23, 0, 23)
                 SliderIcon.ZIndex = 2
-                SliderIcon.Image = "rbxassetid://7072987508"
+                SliderIcon.Image = ""
                 SliderIcon.ImageColor3 = themes.TextColor
                 Objects[SliderIcon] = "TextColor"
             
@@ -1601,7 +1601,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 TextBoxIcon.Position = UDim2.new(0.949999988, 0, 0.392307699, 0)
                 TextBoxIcon.Size = UDim2.new(0, 23, 0, 23)
                 TextBoxIcon.ZIndex = 2
-                TextBoxIcon.Image = "rbxassetid://7072716382"
+                TextBoxIcon.Image = ""
                 TextBoxIcon.ImageColor3 = themes.TextColor
                 Objects[TextBoxIcon] = "TextColor"
 
@@ -1891,7 +1891,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 ColorFrame.Position = UDim2.new(0.023, 0, 0.0559999868, 0)
                 ColorFrame.Size = UDim2.new(0, 227, 0, 119)
                 ColorFrame.ZIndex = 2
-                ColorFrame.Image = "rbxassetid://4155801252"
+                ColorFrame.Image = ""
                 
                 ColorCorner.CornerRadius = UDim.new(0, 4)
                 ColorCorner.Name = "ColorCorner"
@@ -1905,7 +1905,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 ColorSelection.Size = UDim2.new(0, 19, 0, 19)
                 ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
                 ColorSelection.ZIndex = 2
-                ColorSelection.Image = "rbxassetid://8662218920"
+                ColorSelection.Image = ""
                 ColorSelection.ScaleType = Enum.ScaleType.Fit
                 
                 PresetColor.Name = "PresetColor"
@@ -1951,7 +1951,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 HueSelection.Position = UDim2.new(0.48, 0, 1 - select(1, Color3.toHSV(preset)))
                 HueSelection.Size = UDim2.new(0, 19, 0, 19)
                 HueSelection.ZIndex = 2
-                HueSelection.Image = "rbxassetid://8662218920"
+                HueSelection.Image = ""
                 HueSelection.ScaleType = Enum.ScaleType.Fit
                 
                 Inputs.Name = "Inputs"
